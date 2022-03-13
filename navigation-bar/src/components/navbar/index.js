@@ -1,29 +1,29 @@
 import React from 'react';
 import {
-  Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-} from './navbarElements';
-  
+Nav,
+NavLink,
+Bars,
+NavMenu,
+NavBtn,
+NavBtnLink,
+} from './NavbarElements';
+
 const Navbar = () => {
-  return (
-    <>
-      <Nav>
-        <Bars />
-  
-        <NavMenu>
-          <NavLink to='/about' activeStyle>
-            About
-          </NavLink>
-         
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
-        </NavMenu>
-       
-      </Nav>
-    </>
-  );
+return (
+	<>
+	<Nav>
+		
+
+		<NavMenu>
+		<NavLink to='/about' activeStyle>
+			About
+		</NavLink>
+		
+		</NavMenu>
+	
+	</Nav>
+	</>
+);
 };
-  
-export default navbar;
+
+export default Navbar;
