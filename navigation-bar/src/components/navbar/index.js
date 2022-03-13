@@ -4,7 +4,7 @@ import {
   NavLink,
   Bars,
   NavMenu,
-} from './NavbarElements';
+} from './navbarElements';
   
 const Navbar = () => {
   return (
@@ -26,4 +26,4 @@ const Navbar = () => {
   );
 };
   
-export default Navbar;
+export default navbar;
