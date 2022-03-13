@@ -15,7 +15,10 @@ return (
 		
 
 		<NavMenu>
-		<NavLink to='/about' activeStyle>
+		<NavLink to='/home' activeStyle>
+			Home
+		</NavLink>
+  	<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
 		
